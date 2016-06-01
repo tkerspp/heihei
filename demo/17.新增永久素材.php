@@ -8,6 +8,7 @@ include 'mem.php';
 
 $token = get_token();
 
+
 $url = 'https://api.weixin.qq.com/cgi-bin/material/add_news?access_token=' . $token;
 
 $data['articles'][0] = array(
